@@ -89,6 +89,10 @@
     @apply bg-gradient-primary bg-clip-text text-transparent;
   }
 
+  .text-gradient-red {
+    @apply bg-gradient-red bg-clip-text text-transparent;
+  }
+
   .animate-delay-100 {
     animation-delay: 100ms;
   }
@@ -125,6 +129,29 @@
     border-radius: 0.5rem;
     padding: 2px;
     background: linear-gradient(90deg, #1E40AF, #3B82F6, #60A5FA);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .gradient-border-red {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .gradient-border-red::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.5rem;
+    padding: 2px;
+    background: linear-gradient(90deg, #991b1b, #dc2626, #ef4444);
     -webkit-mask: 
       linear-gradient(#fff 0 0) content-box, 
       linear-gradient(#fff 0 0);

@@ -86,6 +86,13 @@ export default {
 					mid: '#3B82F6',
 					end: '#60A5FA',
 				},
+				red: {
+					primary: '#dc2626',
+					secondary: '#b91c1c',
+					tertiary: '#991b1b',
+					dark: '#7f1d1d',
+					light: '#fecaca',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -136,6 +143,7 @@ export default {
 				'gradient-primary': 'linear-gradient(90deg, #1E40AF, #3B82F6, #60A5FA)',
 				'gradient-conic': 'conic-gradient(from 225deg, #1E40AF, #3B82F6, #60A5FA)',
 				'gradient-vertical': 'linear-gradient(to bottom, #1E40AF, #3B82F6, #60A5FA)',
+				'gradient-red': 'linear-gradient(90deg, #991b1b, #dc2626, #ef4444)',
 			}
 		}
 	},
