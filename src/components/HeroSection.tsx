@@ -80,6 +80,7 @@ const HeroSection = () => {
                   src="/lovable-uploads/e1637f95-8902-4d05-b8d5-68e2456bbd0c.png" 
                   alt="Joseph Vineeth Reddy" 
                   className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: "60% center" }}
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 md:w-32 md:h-32 bg-gradient-primary rounded-full opacity-30 blur-xl"></div>
