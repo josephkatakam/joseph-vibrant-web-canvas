@@ -74,10 +74,17 @@ export default {
 					dark: '#1A1F2C',
 					light: '#D6BCFA',
 				},
+				blue: {
+					primary: '#3B82F6',
+					secondary: '#2563EB',
+					tertiary: '#1D4ED8',
+					dark: '#1E3A8A',
+					light: '#BFDBFE',
+				},
 				gradient: {
-					start: '#9b87f5',
-					mid: '#D946EF',
-					end: '#F97316',
+					start: '#1E40AF',
+					mid: '#3B82F6',
+					end: '#60A5FA',
 				},
 			},
 			borderRadius: {
@@ -126,9 +133,9 @@ export default {
 				'bounce-in': 'bounce-in 0.6s ease-out',
 			},
 			backgroundImage: {
-				'gradient-primary': 'linear-gradient(90deg, #9b87f5, #D946EF, #F97316)',
-				'gradient-conic': 'conic-gradient(from 225deg, #9b87f5, #D946EF, #F97316)',
-				'gradient-vertical': 'linear-gradient(to bottom, #9b87f5, #D946EF, #F97316)',
+				'gradient-primary': 'linear-gradient(90deg, #1E40AF, #3B82F6, #60A5FA)',
+				'gradient-conic': 'conic-gradient(from 225deg, #1E40AF, #3B82F6, #60A5FA)',
+				'gradient-vertical': 'linear-gradient(to bottom, #1E40AF, #3B82F6, #60A5FA)',
 			}
 		}
 	},

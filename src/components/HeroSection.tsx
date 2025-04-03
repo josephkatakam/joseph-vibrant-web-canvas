@@ -73,8 +73,8 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="order-1 md:order-2 flex justify-center md:justify-end animate-fade-in">
-            <div className="relative">
+          <div className="order-1 md:order-2 flex justify-center items-center">
+            <div className="relative mx-auto">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img 
                   src="/lovable-uploads/e1637f95-8902-4d05-b8d5-68e2456bbd0c.png" 

@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Progress } from "@/components/ui/progress";
 
@@ -15,7 +16,7 @@ const SkillItem = ({ name, value, className }: { name: string; value: number; cl
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-16 md:py-24 bg-muted/30">
+    <section id="skills" className="py-16 md:py-24 bg-blue-50/50">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
@@ -28,12 +29,12 @@ const SkillsSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <SkillItem name="HTML & CSS" value={90} />
-          <SkillItem name="JavaScript" value={85} />
-          <SkillItem name="React" value={80} />
-          <SkillItem name="Java" value={75} />
-          <SkillItem name="Spring Boot" value={70} />
-          <SkillItem name="SQL" value={65} />
+          <SkillItem name="HTML & CSS" value={90} className="h-3 bg-blue-100" />
+          <SkillItem name="JavaScript" value={85} className="h-3 bg-blue-100" />
+          <SkillItem name="React" value={80} className="h-3 bg-blue-100" />
+          <SkillItem name="Java" value={75} className="h-3 bg-blue-100" />
+          <SkillItem name="Spring Boot" value={70} className="h-3 bg-blue-100" />
+          <SkillItem name="SQL" value={65} className="h-3 bg-blue-100" />
         </div>
       </div>
     </section>

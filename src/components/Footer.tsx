@@ -12,7 +12,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-purple-primary to-gradient-end text-white py-8">
+    <footer className="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-8">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
