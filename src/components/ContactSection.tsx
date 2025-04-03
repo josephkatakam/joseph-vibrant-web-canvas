@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -85,7 +84,7 @@ const ContactSection = () => {
       delay: 200
     },
     {
-      icon: <GitHub className="h-6 w-6" />,
+      icon: <Github className="h-6 w-6" />,
       title: "GitHub",
       value: "josephkatakam",
       href: "https://github.com/josephkatakam",
