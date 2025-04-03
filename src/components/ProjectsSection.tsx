@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -70,7 +69,7 @@ const ProjectCard = ({ title, description, image, tags, githubUrl, liveUrl, dela
 };
 
 const ProjectsSection = () => {
-  const projects = [
+  const projects: ProjectProps[] = [
     {
       title: "Recipe Sharing Platform",
       description: "A Java-based web application for sharing and discovering recipes, featuring user authentication, recipe management, and search functionality.",

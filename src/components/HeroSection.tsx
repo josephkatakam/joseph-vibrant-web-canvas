@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, GitHub, Linkedin, Mail, Phone } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-3 mt-6">
               <a href="https://github.com/josephkatakam" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon" className="rounded-full gradient-border">
-                  <GitHub className="h-5 w-5" />
+                  <Github className="h-5 w-5" />
                 </Button>
               </a>
               <a href="https://www.linkedin.com/in/joseph-vineeth-reddy-katakam-9b5632299/" target="_blank" rel="noopener noreferrer">
